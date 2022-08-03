@@ -1,0 +1,137 @@
+@media screen and (max-width: 760px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        font-family: 'PT Serif', serif;
+        background-image: url(/banner-cellphone.jpg);
+        background-repeat: no-repeat;
+        background-position: center 0;
+        background-attachment: fixed;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        margin-left: 1rem;
+    }
+
+    .informacoes {
+        color: white;
+        font-size: 18px;
+        font-weight: 700;
+        text-align: left;
+        margin-bottom: 1rem;
+        margin-right: 0;
+        margin-top: 4rem;
+        margin: 0;
+    }
+
+    .informacoes h2 {
+        margin-bottom: 17rem;
+        margin-left: 1rem;
+
+    }
+
+    .informacoes span {
+        color: rgb(255, 0, 0);
+    }
+
+    .lado-esquerdo {
+        margin-left: -8rem;
+        margin-top: 5rem;
+    }
+
+    .formulario {
+        color: white;
+        font-size: 18px;
+        font-weight: 400;
+        text-align: left;
+        margin-bottom: 2rem;
+        margin-top: 4rem;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .formulario span {
+        color: rgb(255, 0, 0);
+    }
+
+    .formulario p {
+        margin-top: 1.2rem;
+        font-size: 17px;
+        margin-left: 7rem;
+    }
+
+    .formulario h2 {
+        text-align: center;
+        margin-top: 2rem;
+        margin-left: 5rem;
+    }
+
+    strong {
+        color: rgb(255, 0, 0);
+    }
+
+    form {
+        margin-top: 1.5rem;
+    }
+
+    input {
+        padding: 0.5rem;
+        border-radius: 2rem;
+        border-style: none;
+        display: flex;
+        flex-direction: column;
+        margin-left: 4.5rem;
+    }
+
+    input[type=name] {
+        color: black;
+        font-size: 15px;
+        font-weight: 400;
+        text-align: center;
+        width: 200px;
+    }
+
+    input[type=phone] {
+        color: black;
+        font-size: 15px;
+        font-weight: 400;
+        text-align: center;
+        width: 200px;
+    }
+
+    input[type=email] {
+        color: black;
+        font-size: 15px;
+        font-weight: 400;
+        text-align: center;
+        width: 200px;
+    }
+
+    input[type=submit] {
+        color: white;
+        font-size: 15px;
+        font-weight: 400;
+        text-align: center;
+        margin-left: 5rem;
+        background-color: rgb(151, 4, 4);
+        width: 200px;
+    }
+
+    footer {
+        color: white;
+        font-size: 8px;
+        margin-top: 1rem;
+        text-align: center;
+    }
+
+    footer span {
+        color: red;
+    }
+
+}

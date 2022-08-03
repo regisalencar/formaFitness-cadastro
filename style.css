@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(/banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center 0;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'PT Serif', serif;
+}
+
+/*.container{
+
+}
+*/
+.informacoes{
+    color: white;
+    font-weight: 700;
+    text-align: left;
+    margin-bottom: 2rem;
+    margin-left: 30rem;
+}
+
+.informacoes h2{
+    margin-top: 3.5rem;
+    margin-bottom: 7rem;
+    font-size: 40px;
+}
+
+.informacoes span{
+    color: red;
+}
+
+.formulario {
+    color:white;
+    text-align: left;
+    margin-bottom: 2rem;
+    margin-top: 7rem;
+    margin-left: 18rem;
+    display: flex;
+
+}
+
+.formulario h2{
+    margin-left: 3rem;
+    margin-top: 1rem;
+}
+
+.formulario strong{
+    margin-left: 2rem;
+}
+
+.formulario p{
+    margin-top: 4rem;
+}
+
+.lado-esquerdo {
+    display: flex;
+    flex-direction: column;
+}
+
+.lado-esquerdo span{
+    color: red;
+}
+
+strong{
+    color: red;
+}
+
+input{
+    margin-top: 1rem;
+    padding: 0.5rem;
+    border-radius: 2rem;
+    border-style: none;
+    display: flex;
+    flex-direction: column;
+    margin-left: 4.5rem;
+}
+
+input[type=name]{
+    color: black;
+    font-size: 15px;
+    font-weight: 700;
+    text-align: center;
+    width: 350px;
+}
+
+input[type=phone]{
+    color: black;
+    font-size: 15px;
+    font-weight: 700;
+    text-align: center;
+    width: 350px;
+}
+input[type=email]{
+    color: black;
+    font-size: 15px;
+    font-weight: 700;
+    text-align: center;
+    width: 350px;
+}
+
+input[type=submit]{
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    text-align: center;
+    margin-left: 5rem;
+    cursor: pointer;
+    width: 350px;
+    align-items: center;
+    background-color: rgb(151, 4, 4);
+}
+
+footer{
+    color: white;
+    font-size: 13px;
+    text-align: center;
+    margin-top: 5rem;
+}
+
+footer span{
+    color: red;
+}
